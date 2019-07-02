@@ -1,0 +1,24 @@
+{
+    "name": "malenki/sql-bookmark",
+    "type": "library",
+    "description": "Use normal SQL file(s) as source of SQL to use in Doctrine, Pomm, PDO or other things…",
+    "keywords": ["sql", "request", "bookmark"],
+    "homepage": "https://github.com/malenkiki/sql-bookmark",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michel Petit",
+            "email": "petit.michel@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Malenki\\SqlBookmark": "src/"
+        }
+    }
+}
+
